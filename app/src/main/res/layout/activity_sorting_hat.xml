@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hogwarts_castle_black"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    tools:context=".SortingHatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorting Hat"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:id="@+id/textSort"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/white"
+       android:text="Place the Sorting Hat on your head and it will tell you your House!"
+       android:layout_below="@id/textSort"
+       android:layout_marginTop="20dp"
+       android:textSize="18sp"
+       android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_button_sort"
+        android:layout_margin="12dp"
+        android:text="Sorting Hat"
+        android:id="@+id/sortBtn"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

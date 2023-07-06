@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275935232756",
+    "project_id": "harry-potter-dda17",
+    "storage_bucket": "harry-potter-dda17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275935232756:android:9056aca0eb98bf425554a1",
+        "android_client_info": {
+          "package_name": "com.example.harry_potter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275935232756-s36mp2n529phfdbam7m1q2adkm2jj72d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrN_4PO4I6-bjXzEY27_LJNn5NXi85mj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275935232756-s36mp2n529phfdbam7m1q2adkm2jj72d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
